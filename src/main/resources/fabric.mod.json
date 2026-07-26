@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "rankedsmp",
+	"version": "${version}",
+	"name": "RankedSMP",
+	"description": "Kill ranked players to steal their position! Assigns 20 players random competitive ranks with escalating health, potion, XP and inventory-space advantages. Fabric port of the original RankedSMP Paper plugin by Lusik21556.",
+	"authors": [
+		"Lusik21556"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/plugin/ranked-smp"
+	},
+	"license": "MIT",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"net.lusik21556.rankedsmp.RankedSMP"
+		]
+	},
+	"mixins": [
+		"rankedsmp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"fabric-api": "*",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	}
+}
