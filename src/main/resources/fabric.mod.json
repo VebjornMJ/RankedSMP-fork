@@ -5,7 +5,7 @@
 	"name": "RankedSMP",
 	"description": "Kill ranked players to steal their position! Assigns 20 players random competitive ranks with escalating health, potion, XP and inventory-space advantages. Fabric port of the original RankedSMP Paper plugin by Lusik21556.",
 	"authors": [
-		"Lusik21556"
+		"VebjornMJ"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/plugin/ranked-smp"
